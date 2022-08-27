@@ -5,7 +5,7 @@ import App from "./App";
 import { DarkModeContextProvider } from "./context/darkMode";
 // basename="template_react"
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="AdminDashboard">
     <DarkModeContextProvider>
       <App />
     </DarkModeContextProvider>
